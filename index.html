@@ -3,22 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meu Portfólio</title>
+  <title>Portfólio - [Seu Nome]</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <h1>Olá, eu sou [Seu Nome]</h1>
-    <p>Desenvolvedor Web</p>
+    <div class="container">
+      <h1>[Seu Nome]</h1>
+      <p>Desenvolvedor Web & Mobile</p>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Sobre mim</h2>
-      <p>Sou apaixonado por criar soluções web simples e eficientes.</p>
+
+  <nav>
+    <div class="container">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou um desenvolvedor apaixonado por criar soluções digitais simples e eficientes. Trabalho com tecnologias modernas para entregar produtos de alta qualidade.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="card">
+        <h3>Revenda Pro Lite</h3>
+        <p>Aplicativo desenvolvido para facilitar a gestão de revendas e estoques. Com interface intuitiva e recursos práticos, ajuda pequenas empresas a economizar tempo e aumentar a produtividade.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
     </section>
   </main>
+
   <footer>
-    <p>© 2025 - Criado com ❤️ e GitHub Pages</p>
+    <p>© 2025 - Criado com ❤️ por [Seu Nome]</p>
   </footer>
 </body>
 </html>
